@@ -1,0 +1,3 @@
+import static jdk.nashorn.internal.objects.NativeFunction.apply
+
+apply plugin: 'java'
