@@ -39,15 +39,15 @@ public class Person1 {
 	  }
 	  String output = "";
 	  if (input.length() == 2) {
-	  	output += input.charAt(1);
-	  	output += input.charAt(0);
+	  	output = output + input.charAt(1);
+	  	output = output + input.charAt(0);
 	  	return output;
 	  }
 	  for (int i = 2; i < input.length(); i++) {
-	  	output += input.charAt(i);
+	  	output = output + input.charAt(i);
 	  }
-	  output += input.charAt(0);
-	  output += input.charAt(1);
+	  output = output + input.charAt(0);
+	  output = output + input.charAt(1);
 	  return output;
 	}
 	
