@@ -40,7 +40,6 @@ public class Person2 {
 	  	in.deleteCharAt(index);
 	  }
 	  String output = out.toString();
-	  System.out.println(output);
 	  return output;
 	}
 	/**
