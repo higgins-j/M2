@@ -1,0 +1,14 @@
+apply plugin: 'java'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart',
+                'Implementation-Version': 2.10,
+                'MainClass': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+                'ClassPath': '../../lib/resources.jar'
+
+    }
+}
+
+dependencies {
+    compile files('lib/resources.jar')
+}
